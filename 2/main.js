@@ -4,7 +4,7 @@ const user = {
     username: 'Tesla007'
   };
   
-  function fun() {
+  function fun(user) {
     const clone = user;
     return clone;
   }
